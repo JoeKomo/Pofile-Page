@@ -1,0 +1,196 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 35%;
+}
+.main-content {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    size: 15px;
+    padding-bottom: 60px;
+}
+.social-media .instagram {
+    padding: 0 20px;
+}
+.about-me {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-title, .about-content {
+    width: 50%;
+    
+}
+.chat-now {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-top: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.margin {
+    margin: 8% 0;
+}
+.one {
+font-size: 50px;
+font-weight: 900;
+}
+.design-par {
+    font-weight: 900;
+    font-size: 50px;
+    color: burlywood;
+}
+#image-one {
+    margin: 0 45%;
+}
+#profile-text{
+    display: flex;
+    justify-content: center;
+    color: burlywood;
+    font-size: 50px;
+}
+#my-name {
+    display: flex;
+    justify-content: center;
+}
+#title-color {
+    color: burlywood;
+    font-size: 40px;
+}
+#content-color{
+    color: burlywood;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+.portfolio {
+    color: burlywood;
+    
+}
+.row {
+    width: min(95%, 45rem);
+    margin: 20px auto;
+}
+.rounded {
+    max-width: 6rem;
+    border-radius: .75rem;
+}
+#images {
+    display: flex;
+}
+#second-title {
+    color: burlywood;
+    font-size: 20px;
+}
+.sign-image {
+    width: 150px;
+    height: 150px;
+}
+.security-text {
+    color: burlywood;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.phone-now {
+    display: flex;
+    justify-content: center;
+}
+.lady {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 35%;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    color: burlywood;
+}
+.address {
+    display: flex;
+    justify-content: center;
+}
+.thick-line {
+    width: 30%;
+    border: solid;
+}
+.sample-text {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #333333;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-author {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.image1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+}
+.new-images {
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    width: 100%;
+}
+.new-images2 {
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+}
+.btn-1 {
+    width: 250px;
+    height: 80px;
+    border: solid; 
+    color: burlywood;
+    background-color: black;
+    transition: ease-out 0.3s;
+    font-size: medium;
+    outline: none;
+}
+.btn-1:hover {
+    box-shadow: inset 250px 0 0 0 #ffffff;
+    cursor: pointer;
+    color: black;
+}
